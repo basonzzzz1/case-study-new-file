@@ -1,10 +1,12 @@
 .container {
     width: 400px;
+    bottom: px;
     margin: 0 auto;
+    /*margin auto chinh khoi ra giua man hinh*/
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #2196F3;
+    border-radius: 30px;
+     background-size: cover;
     background: url("https://vapa.vn/wp-content/uploads/2022/12/anh-background-001-1.jpg");
 }
 
@@ -36,6 +38,7 @@ input[type="password"] {
 }
 
 button {
+    block-progression: center;
     display: block;
     /*cách hiển thị trên trang web là một khối hay còn gọi là block*/
     width: 50%;
@@ -57,4 +60,14 @@ body{
 
     background-size: cover;
 /*    hỗ trợ size vừa vặn với màn hình*/
+}
+#pushaccount {
+    position: absolute;
+    /* định vị vị trí của ô*/
+    left: 600px;
+    width: auto;
+}
+#button1 {
+    position: relative;
+    left: 100px;
 }

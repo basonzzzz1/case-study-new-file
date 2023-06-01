@@ -23,11 +23,11 @@ function login() {
 
 function register() {
     document.getElementById("pushaccount").innerHTML = `
-        <h3 style="color: blue">New Acount</h3>
-        <input type="text" id="account1" placeholder="New User Name" style="width: 233px">
-        <input type="text" id="password1" placeholder="New Password" style="width: 233px">
-        <input type="number" id="Number Phone" placeholder="Phone Number" style="width: 233px">
-        <button onclick="add1()">Register</button>
+        <h3 style="color: blue ;text-align: center ">New Acount</h3>
+        <input type="text" id="account1" placeholder="New User Name" style="width: 300px "><br>
+        <input type="text" id="password1" placeholder="New Password" style="width: 300px"><br>
+        <input type="number" id="Number Phone" placeholder="Phone Number" style="width: 300px "><br>
+        <button onclick="add1()" style="margin: auto; width: 100%">Register</button>
     `;
 }
 
